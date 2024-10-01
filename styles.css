@@ -1,0 +1,83 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f7f7f7;
+}
+
+/* Стили для верхнего меню */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #333;
+    color: white;
+    padding: 0 20px;
+}
+
+.main-header h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.main-header nav ul {
+    list-style: none;
+}
+
+.main-header nav li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Стили для основной секции */
+#content {
+    max-width: 960px;
+    margin: auto;
+    padding: 20px;
+}
+
+.server-info {
+    margin-bottom: 20px;
+}
+
+.server-info h2 {
+    margin-top: 0;
+}
+
+.buttons-container button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.buttons-container button:hover {
+    background-color: #444;
+}
+
+.server-description p {
+    margin-bottom: 10px;
+}
+
+/* Стили для футера */
+.main-footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
