@@ -1,10 +1,15 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orfinmine</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: var(--background-color, #f0f0f0); /* Используем переменную для фона */
+        }
+    </style>
 </head>
 <body>
     <header class="main-header">
@@ -19,8 +24,8 @@
         <div class="server-info">
             <h2>Информация о сервере</h2>
             <p>Что такое Orfinmine?</p>
-                <li>Orfinmine это приватный майнкрафт сервер с дружелюбными игроками</br>
-                и малым, но хорошим комьюнити! Хочешь к нам? Тогда дискорд уже ждет тебя.</li>
+            <li>Orfinmine это приватный майнкрафт сервер с дружелюбными игроками</br>
+            и малым, но хорошим комьюнити! Хочешь к нам? Тогда дискорд уже ждет тебя.</li>
         </div>
         <div class="server-description">
             <h4>Как попасть к нам на сервер</h4>
@@ -28,9 +33,10 @@
             и сделать видео-заявку по специальным критериям.</p>
         </div>
     </section>
-    <footer class="main-footer">
-        Orfinmine &copy; 2024. Права не защищены.
-    </footer>
-    <script src="scripts.js"></script>
+    <div class="current-projects">
+        <h3>Текущие проекты</h3>
+        <button type="button" onclick="window.location.href='Orfinmine.html';">OrfinMine</button>
+        <button type="button" onclick="window.location.href='OrfinMini.html';">OrfinMini</button>
+    </div>
 </body>
 </html>
